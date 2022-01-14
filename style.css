@@ -1,0 +1,84 @@
+/* body style start */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+/* body start end  */
+
+/* frist section style start */
+section{
+    margin-bottom: 100px;
+   align-items: center;
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+
+
+.half-width img{
+   background-image: url(images/Circle\ design.svg);
+   background-size: cover;
+   background-position: bottom center, 50%, 50%;
+   width: 100%;
+   
+}
+.button{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(77, 120, 238);
+    
+}
+/* frist section style end */
+
+/* logo style start */
+/* .logos{
+    display: flex;
+    width: 97.06px;
+    height: 28px;
+    
+}
+.logo{
+    display:grid;
+    grid-row-gap: 20px;
+   justify-content: space-betweensd;
+   
+   
+  
+   
+} */
+/* logo style end  */
+
+/* popular-collection style start*/
+.popular-collection h2{
+    text-align: center;
+   
+
+}
+
+
+.articles{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+    
+.article {
+   
+  
+    
+    
+}
+
+
