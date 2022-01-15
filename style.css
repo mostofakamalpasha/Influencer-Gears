@@ -188,6 +188,7 @@ footer{
 
 .affiliate-pharagraph{
     word-break: break-all;
+    
 }
 
 
@@ -198,13 +199,17 @@ footer{
 /*................
  mobile device 
 ..................... */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:688px){
     .container{
        
         display: block;
     }
+    
+    .frist-section{
+        text-align: center;
+    }
     .container .frist-section img{
-        padding-top: 35px;
+        padding-top: 45px;
         width: 100%;
         width: 268px;
         height: 252.267px;
@@ -229,6 +234,25 @@ footer{
 
 }
 
+/* tablet devices   */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container .half-width img{
+        width:100%;
+    }
+    .logos{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .articles{
+        grid-template-columns: 1fr 1fr;
+    }
+    .affiliate-pharagraph{
+        overflow: auto;
+    }
+   
+}
 
 
 
