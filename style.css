@@ -3,6 +3,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
+   
+    
     
 }
 /* body start end  */
@@ -10,7 +12,7 @@ body{
 /* frist section style start */
 section{
     margin-bottom: 100px;
-   align-items: center;
+  
    
 }
 .container{
@@ -60,7 +62,7 @@ section{
 /* logo style end  */
 
 /* popular-collection style start*/
-.popular-collection h2{
+.popular-collection-heading{
     text-align: center;
    
 
@@ -70,15 +72,27 @@ section{
 .articles{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-row-gap: 30px;
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
+   
+   
+    
 }
     
 .article {
-   
-  
-    
-    
-}
+   border: 15px solid rgb(255, 255, 255);
+   border-radius: 5px;
+   box-shadow: 5px 10px 30px#e6c7c7;
 
+
+    
+  
+}
+.article img{
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 100%;
+   
+
+}
 
