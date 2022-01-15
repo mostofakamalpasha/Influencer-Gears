@@ -30,7 +30,7 @@ frist section style start
 ............................. */
 section{
     margin-bottom: 100px;
-   
+ 
   
    
 }
@@ -74,6 +74,7 @@ section h1{
 logo style start
 ............................ */
  .logos{
+     
     display: flex;
     width: 97.06px;
     height: 28px;
@@ -163,6 +164,7 @@ popular-collection style end
  ..................................*/
 
 footer{
+    
     text-align: center;
     background-color: black;
     color: white;
