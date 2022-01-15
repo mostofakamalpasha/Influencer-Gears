@@ -3,7 +3,8 @@ body style start
 ................... */
 body{
     font-family: 'Poppins', sans-serif;
-   
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
@@ -21,18 +22,7 @@ header h1{
 
 
 
-/*.................... 
-    header style start
-............................ */
-.header-title{
-    margin-left: 5%;
-}
 
-                             
-
-/*.................... 
-    header style end
-............................ */
 
 
 /* ..........................
@@ -40,8 +30,7 @@ frist section style start
 ............................. */
 section{
     margin-bottom: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
+   
   
    
 }
@@ -235,10 +224,9 @@ footer{
 }
 
 /* tablet devices   */
-@media only screen and (min-width:689px) and (max-width:992px) {
-    .container .half-width img{
-        width:100%;
-    }
+@media only screen and (min-width:689px) and (max-width:1028px) {
+    
+    
     .logos{
         display: none;
     }
@@ -248,9 +236,7 @@ footer{
     .articles{
         grid-template-columns: 1fr 1fr;
     }
-    .affiliate-pharagraph{
-        overflow: auto;
-    }
+    
    
 }
 
