@@ -1,27 +1,63 @@
-/* body style start */
+/* ................
+body style start
+................... */
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
    
-    
     
 }
-/* body start end  */
 
-/* frist section style start */
+/*...................
+ body start end  
+ .....................*/
+
+
+/* header style start  */
+header h1{
+    font-size: 45px;
+}
+
+/* header style end  */
+
+
+
+/*.................... 
+    header style start
+............................ */
+.header-title{
+    margin-left: 5%;
+}
+
+                             
+
+/*.................... 
+    header style end
+............................ */
+
+
+/* ..........................
+frist section style start
+............................. */
 section{
     margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
   
    
+}
+
+section h1{
+    font-size: 40px;
 }
 .container{
     display: flex;
     width: 100%;
-    align-items: center;
+  
+    
 }
 .half-width{
     width: 50%;
+    
 }
 
 
@@ -41,27 +77,51 @@ section{
     background-color: rgb(77, 120, 238);
     
 }
-/* frist section style end */
+/*........................
+ frist section style end 
+ ..........................*/ 
 
-/* logo style start */
-/* .logos{
+/*.......................... 
+logo style start
+............................ */
+ .logos{
     display: flex;
     width: 97.06px;
     height: 28px;
     
+    
 }
 .logo{
-    display:grid;
-    grid-row-gap: 20px;
-   justify-content: space-betweensd;
+    padding-right: 69px;
+    padding-left: 69px;
    
+}
+.logo img{
+    width: 100%;
+     
+}
+.rating{
+    display: inline;
+    float: left;
+}
+.see-more{
+    text-align: right;
+}
+.see-more-button{
+    font-size: 24px;
    
-  
+    text-decoration: none;
+    color: rgb(165, 32, 88);
+    font-weight: 700;
    
-} */
-/* logo style end  */
+}
+/* ................
+logo style end 
+.................... */
 
-/* popular-collection style start*/
+/* ..........................
+popular-collection style start
+...............................*/
 .popular-collection-heading{
     text-align: center;
    
@@ -74,25 +134,116 @@ section{
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-   
-   
     
 }
     
 .article {
    border: 15px solid rgb(255, 255, 255);
    border-radius: 5px;
-   box-shadow: 5px 10px 30px#e6c7c7;
-
-
-    
-  
+   box-shadow: 5px 10px 30px#e6c7c7; 
 }
+
 .article img{
     object-fit: cover;
     box-sizing: border-box;
     width: 100%;
    
+}
+.fas{
+    color: rgb(204, 204, 19);
+}
+/* .........................
+popular-collection style end
+............................*/
+
+/*...............................
+ affiliate program style start  
+ ................................*/
+.affiliate-program{
+    margin-left: 20px;
+   
+}
+
+
+/*...............................
+ affiliate program style end  
+ ................................*/
+
+/*.................................
+ fooer section style start  
+ ..................................*/
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.fab {
+    font-size: 40px;
+    color: rgb(235, 132, 149);
+    
+   
+   
+}
+
+.affiliate-pharagraph{
+    word-break: break-all;
+}
+
+
+/*.................................
+ footer section style start  
+ ..................................*/
+
+/*................
+ mobile device 
+..................... */
+@media only screen and (max-width:480px){
+    .container{
+       
+        display: block;
+    }
+    .container .frist-section img{
+        padding-top: 35px;
+        width: 100%;
+        width: 268px;
+        height: 252.267px;
+    }
+    hr{
+        display: none;
+    }
+    .logos{
+        display: none;
+    }
+   .articles{
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 
 }
+ .container .last-section img{
+    width: 270.55;
+    height: 186.467;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
